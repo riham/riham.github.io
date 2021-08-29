@@ -4,7 +4,8 @@ Load Balancing
 Once traffic to your service increases beyond the capacity of a single server, client requests start failing.
 That's when we start thinking about distributing the traffic across multiple servers.
 
-This distribution of traffic is what we can load balancing
+This distribution of traffic is what we can load balancing.
+
 Next we explore the mechanisms for load balancing.
 
 <h2>
@@ -30,6 +31,9 @@ What is not cool about it
 
 2- If one of your servers is down or talking too long to respond, DNS doesn't care. Since DNS doesn't check for server load or network errors. It will still send
 the server IP to clients.
+<h3> 
+Taking DNS load balancing to the max: Facebook DNS load balancing 
 </h3>
+Check out the system Facebook built for dynamically updating its DNS server based on capacity
 
-  
+https://www.youtube.com/watch?v=bxhYNfFeVF4&t=1875s
