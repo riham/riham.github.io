@@ -27,7 +27,9 @@ It is very easy to configure.
 What is not cool about it
 </h3>
 1- DNS record caching and TTL. Since DNS records are cached, it would take up to the TTL you configured for a change to your DNS to propagate
+
 2- If one of your servers is down or talking too long to respond, DNS doesn't care. Since DNS doesn't check for server load or network errors. It will still send
 the server IP to clients.
-</h2>
+</h3>
 
+  
